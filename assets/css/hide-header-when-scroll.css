@@ -1,0 +1,55 @@
+/*Make Header Sticky - for Astra prior to 3.0*/
+.main-header-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+		/*transition: top 0.3s;*/
+}
+
+/*Adjust Content Padding*/
+.site-content {
+    padding-top: 100px;
+}
+.nav-up {
+    top: -40px;
+}
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 800px) {
+    .site-content {
+        padding-top: 75px;
+    }
+	/*Stick the Off-Canvas Navigation Menu - Adjust Top Margin for your Layout*/
+		.main-navigation {
+				position: fixed;
+				margin-top: 0px;
+	}
+}
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 650px) {
+    .site-content {
+        padding-top: 75px;
+    }
+	/*Stick the Off-Canvas Navigation Menu - Adjust Top Margin for your Layout*/
+		.main-navigation {
+				position: fixed;
+				margin-top: 60px;
+	}
+}
+
+
+/**
+* header color
+*/
+.elif-primary-header-bar {
+	background-color: #ffc117;
+	border-bottom: 1px solid black;
+}
+.elif-primary-header-bar-scroll {
+	transition: background-color 300ms linear;
+}
+.main-header-bar.is-pinned {
+	background-color: #ffc117;
+	border-bottom: 1px solid black;
+}
