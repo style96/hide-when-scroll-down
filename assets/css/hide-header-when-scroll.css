@@ -42,13 +42,6 @@
 /**
 * header color
 */
-.elif-primary-header-bar {
-	background-color: #ffc117;
-	border-bottom: 1px solid black;
-}
-.elif-primary-header-bar-scroll {
-	transition: background-color 300ms linear;
-}
 .main-header-bar.is-pinned {
 	background-color: #ffc117;
 	border-bottom: 1px solid black;

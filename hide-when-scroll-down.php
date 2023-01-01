@@ -1,8 +1,8 @@
 <?php
 /*
  * Plugin Name: Sticky Header & Hide When Scroll Down
- * Plugin URI: http://example.com/hello-world
- * Description: A plugin that hides header on scroll down and appear on scroll up.
+ * Plugin URI: https://kodlamayabasla.com
+ * Description: A plugin that hides header on scroll down and appear on scroll up. Only works on Astra Themes.
  * Version: 1.0
  * Author: Halil Sen
  * Author URI: https://kodlamayabasla.com
@@ -22,13 +22,13 @@
  * If not, see <https://www.gnu.org/licenses/>.
  */
 
- function hide_when_scroll_down() {
+ function hwsd_hide_when_scroll_down() {
     $my_file = plugins_url( '/assets/css/hide-header-when-scroll.css', __FILE__ );
-	wp_register_style('hide_when_scroll_down_header_plugin_css', $my_file);
-	wp_enqueue_style('hide_when_scroll_down_header_plugin_css');
+	wp_register_style('hwsd_hide_when_scroll_down_header_plugin_css', $my_file);
+	wp_enqueue_style('hwsd_hide_when_scroll_down_header_plugin_css');
 
 	$my_file = plugins_url( '/assets/js/hide_navbar_scrolldown.js', __FILE__ );
-	wp_register_script('hide_when_scroll_down_header_plugin_js', $my_file, array(), null, true);
-	wp_enqueue_script('hide_when_scroll_down_header_plugin_js');
+	wp_register_script('hwsd_hide_when_scroll_down_header_plugin_js', $my_file, array(), null, true);
+	wp_enqueue_script('hwsd_hide_when_scroll_down_header_plugin_js');
 }
-add_action('wp_enqueue_scripts', 'hide_when_scroll_down', 999);
+add_action('wp_enqueue_scripts', 'hwsd_hide_when_scroll_down', 999);

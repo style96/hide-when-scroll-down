@@ -1,6 +1,6 @@
 === Sticky Header & Hide When Scroll Down ===
 Contributors: style96
-Tags: sticky header, hide scroll down, hide, header, hide header, hide sticky header, scroll
+Tags: sticky header, hide scroll down, hide, header, hide header, hide sticky header, scroll, astra
 Donate link: https://www.buymeacoffee.com/style93
 Requires at least: 5.9
 Tested up to: 6.1
