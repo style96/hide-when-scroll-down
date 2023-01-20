@@ -4,7 +4,7 @@ Tags: sticky header, hide scroll down, hide, header, hide header, hide sticky he
 Donate link: https://www.buymeacoffee.com/style93
 Requires at least: 5.9
 Tested up to: 6.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html

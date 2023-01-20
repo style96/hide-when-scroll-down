@@ -3,7 +3,7 @@
  * Plugin Name: Sticky Header & Hide When Scroll Down
  * Plugin URI: https://kodlamayabasla.com
  * Description: A plugin that hides header on scroll down and appear on scroll up. Only works on Astra Themes.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Halil Sen
  * Author URI: https://kodlamayabasla.com
  * License: GPLv2 or later

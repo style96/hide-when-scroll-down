@@ -1,0 +1,25 @@
+/*Make Header Sticky - for Astra prior to 3.0*/
+.main-header-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*Adjust Content Padding*/
+.site-content {
+  padding-top: var(--header-bar-height, 100px);
+}
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 800px) {
+  .site-content {
+    padding-top: var(--header-bar-height, 75px);
+  }
+}
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 650px) {
+  .site-content {
+    padding-top: var(--header-bar-height, 75px);
+  }
+}
