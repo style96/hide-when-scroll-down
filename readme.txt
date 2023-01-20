@@ -41,8 +41,13 @@ Simply deactivate and delete the plugin.
 = 1.0 =
 * Plugin released.
 
+= 1.0.1 =
+* Removed unused css.
 
 == Upgrade Notice ==
 
 = 1.0 =
+Removed unused css.
+
+= 1.0.1 =
 Plugin released.
